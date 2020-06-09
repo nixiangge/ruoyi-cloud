@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ruoyi-activiti" />
+        <module name="ruoyi-auth" />
+        <module name="ruoyi-common-auth" />
+        <module name="ruoyi-common-captcha" />
+        <module name="ruoyi-common-core" />
+        <module name="ruoyi-common-log" />
+        <module name="ruoyi-common-redis" />
+        <module name="ruoyi-common-swagger" />
+        <module name="ruoyi-config" />
+        <module name="ruoyi-dfs" />
+        <module name="ruoyi-eureka" />
+        <module name="ruoyi-gateway" />
+        <module name="ruoyi-gen" />
+        <module name="ruoyi-monitor" />
+        <module name="ruoyi-system" />
+        <module name="ruoyi-system-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
