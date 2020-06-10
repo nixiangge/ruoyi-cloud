@@ -7,7 +7,7 @@
     :isMobile="isMobile"
     :handleMediaQuery="handleMediaQuery"
     :handleCollapse="handleCollapse"
-    :logo="logoRender"
+    logo="/logo.png"
     :i18nRender="i18nRender"
     v-bind="settings"
   >

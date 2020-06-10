@@ -1,4 +1,4 @@
-<h1 align="center">RuoYi Ant</h1>
+<h1 align="center">处置平台</h1>
 
 文档：http://doc.rycloud.zmrit.com
 

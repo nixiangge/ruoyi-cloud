@@ -1,7 +1,7 @@
 import { axios } from '@/utils/request'
 // eslint-disable-next-line
 import { UserLayout, BasicLayout, RouteView, BlankLayout, PageView } from '@/layouts'
-import { defaultRouterMap } from '@/config/router.config'
+import { defaultRouterMap2 } from '@/config/router.config'
 
 // 前端路由表
 const constantRouterComponents = {
@@ -167,7 +167,7 @@ export function getRootMenu (rows) {
   // 根菜单
   const rootMenu = []
   const arr = []
-  const menus = defaultRouterMap
+  const menus = defaultRouterMap2
   buildtree(rows, arr, 0)
   arr.forEach(row => {
     menus.push(row)

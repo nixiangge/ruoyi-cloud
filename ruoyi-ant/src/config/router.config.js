@@ -229,7 +229,33 @@ export const defaultRouterMap = [
     ]
   }
 ]
-
+export const defaultRouterMap2 = [
+  {
+    'title': 'menu.dashboard',
+    'key': 'dashboard',
+    'component': 'RouteView',
+    'redirect': '/dashboard/weclome',
+    'icon': bxAnaalyse,
+    'children': [{
+      'title': 'menu.dashboard.analysis',
+      'path': 'analysis/:pageNum([1-9]\\d*)?',
+      'key': 'analysis',
+      'icon': ''
+    },
+    {
+      'title': 'menu.dashboard.weclome',
+      'key': 'weclome',
+      'icon': ''
+    },
+    {
+      'title': 'menu.dashboard.workplace',
+      'path': 'workplace',
+      'key': 'workplace',
+      'icon': ''
+    }
+    ]
+  }
+]
 /**
  * 基础路由
  * @type { *[] }
