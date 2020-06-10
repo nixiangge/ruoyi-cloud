@@ -241,17 +241,6 @@ export const defaultRouterMap2 = [
       'path': 'analysis/:pageNum([1-9]\\d*)?',
       'key': 'analysis',
       'icon': ''
-    },
-    {
-      'title': 'menu.dashboard.weclome',
-      'key': 'weclome',
-      'icon': ''
-    },
-    {
-      'title': 'menu.dashboard.workplace',
-      'path': 'workplace',
-      'key': 'workplace',
-      'icon': ''
     }
     ]
   }
